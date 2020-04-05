@@ -13,9 +13,9 @@
     console.log("Wednesday");
  } else if (obj == objb) {
     console.log("Thursday");
- } else if (Object.is(obj, objb)) {
+ } else if (Object.is(obj, objb)) { // the same what is done in line 14
     console.log("Friday");
  } else {
     console.log("Saturday");
  }
- 
+// Saturday
