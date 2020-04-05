@@ -11,7 +11,10 @@ let can = {
     prop: "can",
     bag: "box"
 };
-box[bag] = "Monday";
-box[can]= "Tuesday";
+box[bag] = "Monday"; // box['[Object object]'] = "Monday"
+box[can]= "Tuesday"; // box['[Object object]'] = "Tuesday"
 
-console.log(box[bag]);
+console.log(box[bag]); // box['[Object object]'] => "Tuesday"
+
+// object keys are always going to be strings
+
