@@ -15,3 +15,5 @@
      c: 5
  };
  console.log(obj);
+ // {a: "tre", b: "fyra", c: 5}
+ 
